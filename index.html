@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="all">
+        <div class="top-section">
+            <div class="top-section_left">
+                <img src="./TODO.svg" alt="LOGO">
+            </div>
+            <div class="top-section_right">
+                <p class="addBtn">+</p>
+            </div>
+        </div>
+
+        <dialog class="addDialog">
+            <div class="max-width">
+                <div class="allContainerAdd">
+            <div class="top-section-add">
+                <div class="top-section-add_left">
+                    <h1>TASK</h1>
+                </div>
+                <div class="top-section-add_right">
+                    <p class="closeBtn">&times;</p>
+                </div>
+            </div>
+            <form class="formAdd">
+                <label for="title">Title</label>
+                <input placeholder="Placeholder text" id="title" name="addTitle" type="title">
+                <label for="description">Description</label>
+                <textarea placeholder="Placeholder text" id="description" name="addDescription"></textarea>
+                <div class="divBtn">
+                <button class="addSave" type="submit">SAVE</button>
+                <div class="cancelBtn">CANCEL</div>
+                </div>
+            </form>
+            </div>
+            </div>
+        </dialog>
+
+        <dialog class="editDialog">
+            <div class="max-width">
+                <div class="allContaineredit">
+            <div class="top-section-edit">
+                <div class="top-section-edit_left">
+                    <h1>TASK</h1>
+                </div>
+                <div class="top-section-edit_right">
+                    <p class="closeBtnEdit">&times;</p>
+                </div>
+            </div>
+            <form class="formedit">
+                <label for="title">Title</label>
+                <input placeholder="Placeholder text" id="title" name="editTitle" type="title">
+                <label for="description">Description</label>
+                <textarea placeholder="Placeholder text" id="description" name="editDescription"></textarea>
+                <div class="divBtn">
+                <button class="editSave" type="submit">SAVE</button>
+                <div class="cancelBtnEdit">CANCEL</div>
+                </div>
+            </form>
+            </div>
+            </div>
+        </dialog>
+
+        <div class="bottom-section">
+            <div class="bottom-section_left">
+                <div class="bottom-section_top">
+                <div class="li-menu"><p><div class="circle-li"></div>work</p></div>
+                <div class="li-menu"><p><div class="circle-li_1"></div>study</p></div>
+                <div class="li-menu"><p><div class="circle-li_2"></div>entertainment</p></div>
+                <div class="li-menu"><p><div class="circle-li_3"></div>family</p></div>
+                </div>
+                    <div class="bottom-section_bottom">
+                        <input type="checkbox">
+                        <p><i>Hide done task</i></p>
+                    </div>
+            </div>
+            <div class="bottom-section_right">
+                <div class="box"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

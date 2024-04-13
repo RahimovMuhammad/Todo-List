@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.top-section_right{
+    font-size: 56px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.circle-li{
+    width: 36px;
+    height: 36px;
+    background-color: #B7B1DD;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.circle-li_1{
+    width: 36px;
+    height: 36px;
+    background-color: #81DCF0;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.circle-li_2{
+    width: 36px;
+    height: 36px;
+    background-color: #F8ABAB;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.circle-li_3{
+    width: 36px;
+    height: 36px;
+    background-color: #90F3D0;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.li-menu{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #808080;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 32px;
+}
+
+.li-menu:last-child{
+    margin-bottom: 59px;
+}
+
+.bottom-section_bottom{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section_bottom p{
+    margin-left: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.bottom-section_bottom input{
+    zoom: 1.5;
+    accent-color: white;
+}
+
+.container{
+    display: flex;
+    height: 695px;
+    align-items: center;
+}
+
+.all{
+    width: 100%;
+}
+
+input,textarea{
+    outline: none;
+}
+
+.addDialog{
+    margin: auto;
+    width: 630px;
+    height: 379px;
+    border: none;
+}
+
+.max-width{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    height: 379px;
+    align-items: center;
+}
+
+.formAdd input,textarea{
+    width: 100%;
+    border: 1px solid #E2E7EC;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.46px;
+}
+
+.formAdd textarea{
+    height: 96px;
+}
+
+.top-section-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-section-add_right{
+    font-size: 36px;
+}
+
+.top-section-add_left{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formAdd label{
+    font-size: 16px;
+    color: #212121;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formAdd input{
+    margin-bottom: 24px;
+}
+
+.divBtn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.addSave{
+    border: none;
+    background-color: #2196F3;
+    border-radius: 4px;
+    padding: 8px 22px;
+    box-shadow: 0px 2px 2px 0px #00000024;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.46px;
+    font-weight: 500;
+}
+
+.cancelBtn{
+    border: 1px solid #2196F380;
+    color: #2196F3;
+    text-align: center;
+    padding: 8px 22px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.card{
+    background-color: #FFF9DE;
+    border-radius: 10px;
+    padding: 16px 22.7px;
+    margin-left: 33.1px;
+    margin-bottom: 25px;
+    height: 187px;
+    width: 358.45px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnFunction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.checks{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.checkText{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.50px;
+    margin-left: 8.46px;
+}
+
+.editDialog{
+    margin: auto;
+    width: 630px;
+    height: 379px;
+    border: none;
+}
+
+.formedit input,textarea{
+    width: 100%;
+    border: 1px solid #E2E7EC;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.46px;
+}
+
+.formedit textarea{
+    height: 96px;
+}
+
+.top-section-edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.top-section-edit_right{
+    font-size: 36px;
+}
+
+.top-section-edit_left{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formedit label{
+    font-size: 16px;
+    color: #212121;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formedit input{
+    margin-bottom: 24px;
+}
+
+.divBtn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.editSave{
+    border: none;
+    background-color: #2196F3;
+    border-radius: 4px;
+    padding: 8px 22px;
+    box-shadow: 0px 2px 2px 0px #00000024;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.46px;
+    font-weight: 500;
+}
+
+.cancelBtnEdit{
+    border: 1px solid #2196F380;
+    color: #2196F3;
+    text-align: center;
+    padding: 8px 22px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.titleName{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.descriptionName{
+    color: #595959;
+    font-weight: 400;
+}
+
+.delName{
+    text-decoration: line-through;
+}
+
+.bottom-section_left{
+    margin-right: 70px;
+}
+
+@media (max-width:500px) {
+    .bottom-section_left{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 34px;
+    }
+    .container{
+        max-width: 420px;
+        margin: auto;
+    }
+    .addDialog{
+        margin: auto;
+        width: 400px;
+        height: 379px;
+        border: none;
+        font-size: 13px;
+    }
+    .max-width{
+        max-width: 340px;
+    }
+}
